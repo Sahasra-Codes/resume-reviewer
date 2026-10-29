@@ -55,10 +55,7 @@ try{
                 data: resume.buffer.toString("base64")
             }
 
-            }],
-            config: {
-                tools: [{ googleSearch: {} }]
-            }
+            }]
 
         });
         
