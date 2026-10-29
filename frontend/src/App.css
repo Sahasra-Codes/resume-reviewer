@@ -1,0 +1,97 @@
+.resume-form {
+  width: min(640px, calc(100% - 32px));
+  margin: 48px auto;
+  padding: 32px;
+  border: 1px solid #e1e6ef;
+  border-radius: 16px;
+  background: white;
+  box-shadow: 0 12px 36px rgb(23 32 51 / 6%);
+}
+
+.resume-form h1 {
+  margin: 0 0 8px;
+  font-size: clamp(1.8rem, 6vw, 2.4rem);
+  letter-spacing: -0.04em;
+}
+
+.resume-form label {
+  display: block;
+  margin: 20px 0 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.resume-form input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid #cbd3e0;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  font: inherit;
+}
+
+.resume-form input[type='file'] {
+  background: #f8f9fc;
+  font-size: 0.9rem;
+}
+
+.resume-form input::file-selector-button {
+  margin-right: 12px;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: #e7ebfa;
+  color: #3043ad;
+  font: inherit;
+  cursor: pointer;
+}
+
+.resume-form button[type='submit'] {
+  width: 100%;
+  margin-top: 28px;
+  padding: 14px;
+  border: 0;
+  border-radius: 8px;
+  background: #475bd8;
+  color: white;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.resume-form button[type='submit']:hover {
+  background: #3548bc;
+}
+
+.resume-form input:focus-visible,
+.resume-form button:focus-visible {
+  outline: 3px solid #8192f2;
+  outline-offset: 3px;
+}
+
+.review-feedback:empty {
+  display: none;
+}
+
+.review-feedback {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #f5f7fb;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.review-feedback h1 { font-size: 1.6rem; }
+.review-feedback h2 { font-size: 1.3rem; }
+.review-feedback pre { overflow-x: auto; }
+
+@media (max-width: 480px) {
+  .resume-form {
+    margin: 24px auto;
+    padding: 24px 20px;
+  }
+}
