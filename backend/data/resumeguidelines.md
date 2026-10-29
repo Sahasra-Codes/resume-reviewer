@@ -220,16 +220,14 @@ Do not invent details just to make a bullet sound impressive.
 ## 6. Resume Report Card
 
 Score each category from 1–10:
-
-| Category | Score | Explanation |
+| Category | Score | Quick Check |
 |---|---|---|
-| Technical Relevance | /10 | Evidence-based explanation |
-| Engineering Depth | /10 | Evidence-based explanation |
-| Experience | /10 | Evidence-based explanation |
-| Projects | /10 | Evidence-based explanation |
-| Impact and Clarity | /10 | Evidence-based explanation |
-| Formatting | /10 | Evidence-based explanation |
-| Target Role Alignment | /10 | Evidence-based explanation |
+| **Skills & Tech** | /10 | Matches the required technology stack? |
+| **Experience** | /10 | Quality and relevance of work history |
+| **Projects** | /10 | Depth of personal or side projects |
+| **Impact** | /10 | Shows clear, measurable achievements? |
+| **Clarity & Format** | /10 | Easy to read, clean design, well-organized |
+| **Role Fit** | /10 | Overall alignment with the target job |
 
 Provide an overall score and explain its limitations.
 
@@ -237,7 +235,7 @@ Scores are subjective assessments, not validated hiring predictions.
 
 ---
 
-# PART VII — THE COMEBACK PLAN
+# PART VII — Make it better
 
 ## 7. How to Make This Resume Competitive
 

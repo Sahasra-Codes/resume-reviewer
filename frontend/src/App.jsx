@@ -37,7 +37,7 @@ async function handleSubmit(e) {
   return (
     
     <form className="resume-form" onSubmit={handleSubmit}>
-      <h1>Resume Reviewer</h1>
+      <h1>.</h1>
       <p>Upload your resume and add your target role to get feedback.</p>
       <label htmlFor="yourname">Your name</label>
       <input id="yourname" type="text" value={yourname} onChange={(e) => setName(e.target.value)}/>

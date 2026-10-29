@@ -53,14 +53,15 @@ try{
             inlineData: {
                 mimeType: "application/pdf",
                 data: resume.buffer.toString("base64")
-            },
+            }
+
+            }],
             config: {
                 tools: [{ googleSearch: {} }]
             }
 
-            }
-            
-        ]});
+        });
+        
         console.log("GEMINI RESPONSE:", result.text);
 
     response.json({
